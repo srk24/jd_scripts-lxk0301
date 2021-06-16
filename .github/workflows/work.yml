@@ -40,12 +40,7 @@ jobs:
             - run: node  jd_get_share_code.js
             - run: node  jd_jdfactory.js
             - run: node  jd_jdzz.js
-            - run: node  jd_joy.js
-            - run: node  jd_joy_feedPets.js
-            - run: node  jd_joy_help.js
-            - run: node  jd_joy_reward.js
-            - run: node  jd_joy_run.js
-            - run: node  jd_joy_steal.js
+            
             - run: node  jd_jxnc.js
             - run: node  jd_kd.js
             - run: node  jd_live.js
@@ -66,6 +61,12 @@ jobs:
             - run: node  jd_syj.js
             - run: node  jd_unbind.js
             - run: node  jd_unsubscribe.js
+            - run: node  jd_joy.js
+            - run: node  jd_joy_feedPets.js
+            #- run: node  jd_joy_help.js
+            - run: node  jd_joy_reward.js
+            - run: node  jd_joy_run.js
+            - run: node  jd_joy_steal.js
               env:
                 JD_COOKIE: ${{ secrets.JD_COOKIE }}
                 JD_COOKIE_2: ${{ secrets.JD_COOKIE_2 }} 
