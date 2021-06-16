@@ -22,6 +22,10 @@ jobs:
                 node-version: '12.x'
             - name: Run app
               run: npm install
+            - name: Test 1
+              run: pwd
+            - name: Test workdir
+              run: ls /home/runner/work/jd_scripts-lxk0301/jd_scripts-lxk0301/
             - run: node app.js
               env:
                 JD_COOKIE: ${{ secrets.JD_COOKIE }}
