@@ -8,8 +8,8 @@ node  jd_car.js
 node  jd_car_exchange.js
 node  jd_cash.js
 node  jd_club_lottery.js
-node  jd_crazy_joy.js
-node  jd_crazy_joy_coin.js
+#node  jd_crazy_joy.js
+#node  jd_crazy_joy_coin.js
 node  jd_daily_egg.js
 node  jd_dreamFactory.js
 node  jd_family.js
