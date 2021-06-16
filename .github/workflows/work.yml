@@ -23,7 +23,8 @@ jobs:
             - name: Run app
               run: npm install
             - name: List files
-              run: ls /home/runner/work/jd_scripts-lxk0301/jd_scripts-lxk0301
+              run: ls /home/runner/work/jd_scripts-lxk0301/jd_scripts-lxk0301 |grep jd_|awk '{print "- run: "$1}'
+            - run: node jx.js
             - run: node jd_bean_sign.js
               env:
                 JD_COOKIE: ${{ secrets.JD_COOKIE }}
