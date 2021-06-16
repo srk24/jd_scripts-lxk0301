@@ -22,6 +22,8 @@ jobs:
                 node-version: '12.x'
             - name: Run app
               run: npm install
+            - name: List files
+              run: ls
             - run: node jd_bean_sign.js
               env:
                 JD_COOKIE: ${{ secrets.JD_COOKIE }}
