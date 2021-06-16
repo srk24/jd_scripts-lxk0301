@@ -23,7 +23,7 @@ jobs:
             - name: Run app
               run: npm install
             - name: List files
-              run: ls
+              run: ls /home/runner/work/jd_scripts-lxk0301/jd_scripts-lxk0301
             - run: node jd_bean_sign.js
               env:
                 JD_COOKIE: ${{ secrets.JD_COOKIE }}
