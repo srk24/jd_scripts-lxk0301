@@ -24,8 +24,60 @@ jobs:
               run: npm install
             - name: List files
               run: ls /home/runner/work/jd_scripts-lxk0301/jd_scripts-lxk0301 |grep jd_|awk '{print "- run: "$1}'
-            - run: node jx.js
-            - run: node jd_bean_sign.js
+            - run: jdCookie.js
+            - run: jdDreamFactoryShareCodes.js
+            - run: jdFactoryShareCodes.js
+            - run: jdFruitShareCodes.js
+            - run: jdJxncShareCodes.js
+            - run: jdJxncTokens.js
+            - run: jdPetShareCodes.js
+            - run: jdPlantBeanShareCodes.js
+            - run: jdSuperMarketShareCodes.js
+            - run: jd_bean_change.js
+            - run: jd_bean_home.js
+            - run: jd_bean_sign.js
+            - run: jd_blueCoin.js
+            - run: jd_bookshop.js
+            - run: jd_car.js
+            - run: jd_car_exchange.js
+            - run: jd_cash.js
+            - run: jd_club_lottery.js
+            - run: jd_crazy_joy.js
+            - run: jd_crazy_joy_coin.js
+            - run: jd_daily_egg.js
+            - run: jd_dreamFactory.js
+            - run: jd_family.js
+            - run: jd_fruit.js
+            - run: jd_get_share_code.js
+            - run: jd_jdfactory.js
+            - run: jd_jdzz.js
+            - run: jd_joy.js
+            - run: jd_joy_feedPets.js
+            - run: jd_joy_help.js
+            - run: jd_joy_reward.js
+            - run: jd_joy_run.js
+            - run: jd_joy_steal.js
+            - run: jd_jxnc.js
+            - run: jd_kd.js
+            - run: jd_live.js
+            - run: jd_lotteryMachine.js
+            - run: jd_moneyTree.js
+            - run: jd_necklace.js
+            - run: jd_nh.js
+            - run: jd_pet.js
+            - run: jd_petTreasureBox.js
+            - run: jd_pigPet.js
+            - run: jd_plantBean.js
+            - run: jd_rankingList.js
+            - run: jd_redPacket.js
+            - run: jd_shop.js
+            - run: jd_small_home.js
+            - run: jd_speed.js
+            - run: jd_superMarket.js
+            - run: jd_syj.js
+            - run: jd_unbind.js
+            - run: jd_unsubscribe.js
+            - run: jx.js
               env:
                 JD_COOKIE: ${{ secrets.JD_COOKIE }}
                 JD_COOKIE_2: ${{ secrets.JD_COOKIE_2 }} 
