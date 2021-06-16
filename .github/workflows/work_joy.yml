@@ -1,9 +1,9 @@
-name: Github JD-sign bot
+name: Github JD-joy bot
 
 on:
     workflow_dispatch: # 手动触发
     schedule:
-        - cron: '15 22 * * *'
+        - cron: '00 04 * * *'
 jobs:
     build:
         runs-on: ubuntu-latest
@@ -20,7 +20,7 @@ jobs:
             - name: Run app
               run: npm install
             
-            - run: bash run.sh
+            - run: bash run_joy.sh
               env:
                 JD_COOKIE: ${{ secrets.JD_COOKIE }}
                 JD_COOKIE_2: ${{ secrets.JD_COOKIE_2 }} 
