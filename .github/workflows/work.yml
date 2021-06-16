@@ -49,7 +49,7 @@ jobs:
             - run: node  jd_necklace.js
             - run: node  jd_nh.js
             - run: node  jd_pet.js
-            - run: node  jd_petTreasureBox.js
+            #- run: node  jd_petTreasureBox.js
             - run: node  jd_pigPet.js
             - run: node  jd_plantBean.js
             - run: node  jd_rankingList.js
