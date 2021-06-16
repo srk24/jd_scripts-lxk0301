@@ -43,3 +43,5 @@ node  jd_superMarket.js
 node  jd_syj.js
 node  jd_unbind.js
 node  jd_unsubscribe.js
+node  jd_bean_change.js
+node  jd_bean_home.js
