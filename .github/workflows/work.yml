@@ -22,50 +22,50 @@ jobs:
                 node-version: '12.x'
             - name: Run app
               run: npm install
-            - run: jd_bean_change.js
-            - run: jd_bean_home.js
-            - run: jd_bean_sign.js
-            - run: jd_blueCoin.js
-            - run: jd_bookshop.js
-            - run: jd_car.js
-            - run: jd_car_exchange.js
-            - run: jd_cash.js
-            - run: jd_club_lottery.js
-            - run: jd_crazy_joy.js
-            - run: jd_crazy_joy_coin.js
-            - run: jd_daily_egg.js
-            - run: jd_dreamFactory.js
-            - run: jd_family.js
-            - run: jd_fruit.js
-            - run: jd_get_share_code.js
-            - run: jd_jdfactory.js
-            - run: jd_jdzz.js
-            - run: jd_joy.js
-            - run: jd_joy_feedPets.js
-            - run: jd_joy_help.js
-            - run: jd_joy_reward.js
-            - run: jd_joy_run.js
-            - run: jd_joy_steal.js
-            - run: jd_jxnc.js
-            - run: jd_kd.js
-            - run: jd_live.js
-            - run: jd_lotteryMachine.js
-            - run: jd_moneyTree.js
-            - run: jd_necklace.js
-            - run: jd_nh.js
-            - run: jd_pet.js
-            - run: jd_petTreasureBox.js
-            - run: jd_pigPet.js
-            - run: jd_plantBean.js
-            - run: jd_rankingList.js
-            - run: jd_redPacket.js
-            - run: jd_shop.js
-            - run: jd_small_home.js
-            - run: jd_speed.js
-            - run: jd_superMarket.js
-            - run: jd_syj.js
-            - run: jd_unbind.js
-            - run: jd_unsubscribe.js
+            - run: node  jd_bean_change.js
+            - run: node  jd_bean_home.js
+            - run: node  jd_bean_sign.js
+            - run: node  jd_blueCoin.js
+            - run: node  jd_bookshop.js
+            - run: node  jd_car.js
+            - run: node  jd_car_exchange.js
+            - run: node  jd_cash.js
+            - run: node  jd_club_lottery.js
+            - run: node  jd_crazy_joy.js
+            - run: node  jd_crazy_joy_coin.js
+            - run: node  jd_daily_egg.js
+            - run: node  jd_dreamFactory.js
+            - run: node  jd_family.js
+            - run: node  jd_fruit.js
+            - run: node  jd_get_share_code.js
+            - run: node  jd_jdfactory.js
+            - run: node  jd_jdzz.js
+            - run: node  jd_joy.js
+            - run: node  jd_joy_feedPets.js
+            - run: node  jd_joy_help.js
+            - run: node  jd_joy_reward.js
+            - run: node  jd_joy_run.js
+            - run: node  jd_joy_steal.js
+            - run: node  jd_jxnc.js
+            - run: node  jd_kd.js
+            - run: node  jd_live.js
+            - run: node  jd_lotteryMachine.js
+            - run: node  jd_moneyTree.js
+            - run: node  jd_necklace.js
+            - run: node  jd_nh.js
+            - run: node  jd_pet.js
+            - run: node  jd_petTreasureBox.js
+            - run: node  jd_pigPet.js
+            - run: node  jd_plantBean.js
+            - run: node  jd_rankingList.js
+            - run: node  jd_redPacket.js
+            - run: node  jd_shop.js
+            - run: node  jd_small_home.js
+            - run: node  jd_speed.js
+            - run: node  jd_superMarket.js
+            - run: node  jd_syj.js
+            - run: node  jd_unbind.js
+            - run: node  jd_unsubscribe.js
               env:
                 JD_COOKIE: ${{ secrets.JD_COOKIE }}
                 JD_COOKIE_2: ${{ secrets.JD_COOKIE_2 }} 
