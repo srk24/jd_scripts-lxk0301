@@ -22,8 +22,6 @@ jobs:
                 node-version: '12.x'
             - name: Run app
               run: npm install
-            - name: List files
-              run: ls /home/runner/work/jd_scripts-lxk0301/jd_scripts-lxk0301 |grep jd_|awk '{print "- run: "$1}'
             - run: jdCookie.js
             - run: jdDreamFactoryShareCodes.js
             - run: jdFactoryShareCodes.js
