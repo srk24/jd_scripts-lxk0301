@@ -17,12 +17,6 @@ node  jd_fruit.js
 node  jd_get_share_code.js
 node  jd_jdfactory.js
 node  jd_jdzz.js
-node  jd_joy.js
-node  jd_joy_feedPets.js
-#node  jd_joy_help.js
-node  jd_joy_reward.js
-node  jd_joy_run.js
-node  jd_joy_steal.js
 node  jd_jxnc.js
 node  jd_kd.js
 node  jd_live.js
